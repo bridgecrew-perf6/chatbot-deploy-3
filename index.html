@@ -1,9 +1,15 @@
-<html>
-    <head>
-
-    </head>
-    <body>
-        hello world 1
-        <script type="text/javascript" async src="https://c6.avaamo.com/web_channels/44d0da27-22ea-486d-b948-50a91c641637.js?theme=avm-messenger"></script>
-    </body>
-</html>
+<!DOCTYPE html>
+        <html>
+        <head>
+          <title>Web Channel</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+        </head>
+        <body>
+          
+          <script type="text/javascript">
+            var AvaamoChatBot=function(t){function o(t,o){var n=document.createElement("script");n.setAttribute("src",t),n.setAttribute("id","avm-web-channel"),n.onload=o,document.body.appendChild(n)}return this.options=t||{},this.load=function(t){o(this.options.url,function(){window.Avaamo.addFrame(),t&&"function"==typeof(t)&&t(window.Avaamo)})},this};
+              var chatBox = new AvaamoChatBot({url: 'https://c6.avaamo.com/web_channels/44d0da27-22ea-486d-b948-50a91c641637?action=demo&banner=true&banner_text=+&banner_title=This+is+how+the+chat+agent+shows+up&controller=web_channels&demo=true&theme=avm-messenger'});
+            chatBox.load();
+          </script>
+        </body>
+      </html>
